@@ -47,15 +47,21 @@ body {
 }
 /*============= CAROUSEL =============*/
 #carousel{
+  padding-bottom: 2rem;
   box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
 }
 .carousel-inner{
-  max-height: 45rem !important;
+  max-height: 60rem !important;
+  scale:inherit;
 }
 
 
 /*---Change Carousel Transition Speed --*/
-
+.carousel-item-next, 
+.carousel-item-prev,
+.carousel-item.active{
+  transition: transform 1.2s ease;
+}
 
 /*-- Carousel Content --*/
 
@@ -160,7 +166,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 .box{
   background-color: #efefef;
-  padding: 2rem 2rem 4rem 4rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 .box-empty{
@@ -185,4 +191,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
   margin-right: auto;
   margin-left: auto;
   width: 70%;
+  max-width: 70%;
+  height: auto;
 }
