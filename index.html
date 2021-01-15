@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Carson Miller Website</title>
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/cm.png">
 	<!-- Bootstrap 4.5 CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
@@ -104,11 +104,16 @@
 
 
 	<!-- Main Page Heading -->
-	<div class="col-12 text-center mt-5">
-		<h1 class="text-dark pt-4">Placeholder heading</h1>
-		<div class="border-top border-primary w-25 mx-auto my-3"></div>
-		<p class="lead">Some placeholder text to add to my site at some time</p>
-	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 
 	<!-- Three Column Section -->
 
@@ -148,6 +153,22 @@
 
 	<!-- End Socket -->
 
+	<footer>
+		<div class="container">
+			<div class="row text-light text-center py-4 justify-content-center">
+				<div class="col-sm-10 col-md-8 col-lg-6">
+					<img src="img/cm-logo-1.png" alt="">
+					<p>Check out my Linkedin and Github pages below!</p>
+					<ul class="social pt-3">
+						<li><a href="https://www.linkedin.com/in/carson-miller-960554187/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/carmill1" target="_blank"><i class="fab fa-github"></i></a></li>
+					</ul>
+					<p>&copy; Carson Miller</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 
 
 	<!-- Script Source Files -->
@@ -163,4 +184,27 @@
 
 	<!-- End Script Source Files -->
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDYclouMFsfIzPLKSlonuk15IfqjVWFK1U",
+    authDomain: "resume-site-fa5bb.firebaseapp.com",
+    projectId: "resume-site-fa5bb",
+    storageBucket: "resume-site-fa5bb.appspot.com",
+    messagingSenderId: "913448511740",
+    appId: "1:913448511740:web:2e92d5282628c909560f79",
+    measurementId: "G-RLQGLWXKHB"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </html>

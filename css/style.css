@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   color: #616971;
+  height: 100%;
+}
+html{
+  height: 100%;
 }
 
 /*============= TOP BAR HEADER =============*/
@@ -49,9 +53,11 @@ body {
 #carousel{
   padding-bottom: 2rem;
   box-shadow: 0 1rem 1rem rgba(0,0,0,.1);
+  height: 40rem;
 }
 .carousel-inner{
   max-height: 60rem !important;
+  height: 60rem;
   scale:inherit;
 }
 
@@ -79,8 +85,41 @@ body {
 
 
 /*============= FOOTER =============*/
+footer{
+  background-color: #383838;
+  padding: 1rem, 2 rem, 3 rem;
+  bottom: 0;
+  width: 100%
+}
 
+footer img{
+  height: 3.5rem;
+  margin: 1.5rem auto;
+}
 
+footer p, footer a{
+  color: white;
+  text-decoration: none;
+  padding-top: 2rem;
+}
+ul.social{
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul.social li{
+  margin: 0 auto;
+}
+
+footer .svg-inline--fa{
+  font-size: 2.3rem;
+}
+footer .svg-inline--fa:hover{
+  color: #68a0d2;
+}
 
 /*============= SOCKET =============*/
 
@@ -169,6 +208,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
   padding: 2rem 2rem 2rem 2rem;
 }
 
+.box-exp{
+  background-color: #fdfdfd;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 .box-empty{
   background-color: #ffffff !important;
   padding-top: 1 rem;
@@ -184,6 +229,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 .w-90{
   width: 90% !important;
+}
+
+.w-60{
+  width: 60% !important;
 }
 
 .car-img{
